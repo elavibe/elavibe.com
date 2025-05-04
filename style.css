@@ -138,47 +138,52 @@ h1 {
   text-align: center;
 }
 nav {
-  font-size: 1.5em;
+  font-size: 1em;
   display: flex;
   background-color: rgb(21, 61, 97);
   justify-content: space-between;
-  padding: 15px;
-  border-top: 20px;
+  padding: 5px;
+  border-top: 10px;
 }
 .home {
-  background-color: aqua;
+  color: white;
   padding: 25px;
   margin: 20px;
   border-radius: 10px;
-  border: 20px;
+  border: 2px solid black;
+  text-decoration: none;
 }
 .portfolio {
-  background-color: aqua;
+  color: white;
   padding: 25px;
   margin: 20px;
   border-radius: 10px;
-  border: 20px;
+  border: 2px solid black;
+  text-decoration: none;
 }
 .postItDrawings {
-  background-color: aqua;
+  color: white;
   padding: 25px;
   margin: 20px;
   border-radius: 10px;
-  border: 20px;
+  border: 2px solid black;
+  text-decoration: none;
 }
 .about {
-  background-color: aqua;
+  color: white;
   padding: 25px;
   margin: 20px;
   border-radius: 10px;
-  border: 20px;
+  border: 2px solid black;
+  text-decoration: none;
 }
 .emailMe {
-  background-color: aqua;
+  color: white;
   padding: 25px;
   margin: 20px;
   border-radius: 10px;
-  border: 20px;
+  border: 2px solid black;
+  text-decoration: none;
 }
 ul,
 li {
