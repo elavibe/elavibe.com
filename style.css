@@ -129,7 +129,7 @@ table {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Mono", monospace;
   background-color: black;
 }
 
@@ -142,17 +142,49 @@ nav {
   display: flex;
   background-color: rgb(21, 61, 97);
   justify-content: space-between;
+  padding: 15px;
+  border-top: 20px;
+}
+.home {
+  background-color: aqua;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 20px;
 }
 .portfolio {
   background-color: aqua;
-  padding: 2px;
+  padding: 25px;
   margin: 20px;
+  border-radius: 10px;
+  border: 20px;
+}
+.postItDrawings {
+  background-color: aqua;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 20px;
+}
+.about {
+  background-color: aqua;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 20px;
+}
+.emailMe {
+  background-color: aqua;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 20px;
 }
 ul,
 li {
   display: inline;
-  margin: 0;
-  padding: 0;
+  margin: 25px;
+  padding: 10px;
 }
 ul {
   flex: 1;
@@ -163,10 +195,7 @@ ul {
 /* 
 at 800 and above this will be true */
 /* @media (min-width: 600px) and (max-width: 800px) {
-  h1 {
-    color: palegreen;
-  }
-} */
+ */
 
 h1 {
   color: red;
@@ -174,17 +203,17 @@ h1 {
 
 @media (min-width: 500px) {
   h1 {
-    color: orange;
+    color: rgb(255, 166, 0);
   }
 }
 @media (min-width: 1000px) {
   h1 {
-    color: rgb(57, 49, 84);
+    color: rgb(185, 102, 0);
   }
 }
 @media (min-width: 1500px) {
   h1 {
-    color: green;
+    color: rgb(128, 75, 0);
   }
 }
 
