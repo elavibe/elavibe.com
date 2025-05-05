@@ -1,1 +1,8 @@
-document.addEventListener("DOMContentLoaded", () => {});
+document.addEventListener("DOMContentLoaded", () => {
+  $(function () {
+    $(document).scroll(function () {
+      var $nav = $("#mainNavbar");
+      $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+    });
+  });
+});
