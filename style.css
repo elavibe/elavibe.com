@@ -14,7 +14,10 @@ body {
   font-size: 1.125rem;
   line-height: 2;
 }
-
+button {
+  background: none;
+  border: none;
+}
 .content {
   margin-top: 100px;
 }
@@ -26,17 +29,17 @@ body {
   color: white;
 }
 #mainNavbar .nav-link:hover {
-  color: orange;
+  color: orangered;
 }
 
 #mainNavbar .navbar-brand {
-  color: orange;
+  color: orangered;
 }
 #mainNavbar .navbar-brand:hover {
   color: black;
 }
 
 .navbar.scrolled {
-  background: rgb(222, 192, 222);
+  background: rgba(0, 0, 0, 0.605) !important;
   transition: background 500ms;
 }
