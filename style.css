@@ -43,3 +43,7 @@ button {
   background: rgba(0, 0, 0, 0.605) !important;
   transition: background 500ms;
 }
+
+.hidden {
+  display: none;
+}

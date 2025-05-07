@@ -1,15 +1,8 @@
-// let navigator = document.getElementsByName(".navbar");
+const navigationButton = document.getElementsByClassName("changePicture");
+const picture = document.getElementById("spaceArt");
+const picture2 = document.getElementById("spaceArt2");
 
-// document.addEventListener("scroll", () => {
-//   navigator.classlist.add("scrolled");
-// });
-const nav = document.getElementsByTagName("navbar");
-window.onscroll = function () {
-  if (document.body.scrollTop >= 200) {
-    nav.classList.add("scrolled");
-    // nav.classList.remove("nav-transparent");
-  } else {
-    //   myNav.classList.add("nav-transparent");
-    nav.classList.remove("scrolled");
-  }
-};
+navigationButton.addEventListener("click", (e) => {
+  if (picture === classlist("hidden")) picture.classList.add("hidden");
+  picture2.classList.remove("hidden");
+});
