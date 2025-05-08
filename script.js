@@ -12,9 +12,5 @@ const artWork = document.querySelector("spaceArt");
 
 navigationButton.addEventListener("click"),
   () => {
-    if (artWork.classlist === "hidden") {
-      artWork.classList.remove("hidden");
-    } else {
-      artWork.classList.add("hidden");
-    }
+    alert("buttonworks");
   };

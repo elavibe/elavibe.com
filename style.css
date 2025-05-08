@@ -47,3 +47,7 @@ button {
 .hidden {
   display: none;
 }
+
+.grover {
+  border-radius: 1rem;
+}
