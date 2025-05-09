@@ -36,12 +36,12 @@ button {
   color: orangered;
 }
 #mainNavbar .navbar-brand:hover {
-  color: black;
+  color: white;
 }
 
 .navbar.scrolled {
+  /* background-image: url(spaceDanNavBar.png) !important; */
   background: rgba(0, 0, 0, 0.605) !important;
-  transition: background 500ms;
 }
 
 .hidden {
@@ -50,4 +50,9 @@ button {
 
 .grover {
   border-radius: 1rem;
+}
+.previousBlack {
+  color: black;
+  font-family: "Roboto Mono", monospace;
+  font-size: 4rem !important;
 }
