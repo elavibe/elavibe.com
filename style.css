@@ -48,8 +48,9 @@ button {
   display: none;
 }
 
-.grover {
-  border-radius: 1rem;
+.postItPictures {
+  border-radius: 2.3rem;
+  padding: 20px;
 }
 .previousBlack {
   color: black;
@@ -57,5 +58,13 @@ button {
   font-size: 4rem !important;
 }
 .outline {
-  border: black;
+  /* background-color: cadetblue; */
+  /* gap: 50px; */
+  border-radius: 2rem;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
