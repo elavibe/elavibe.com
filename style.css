@@ -56,3 +56,6 @@ button {
   font-family: "Roboto Mono", monospace;
   font-size: 4rem !important;
 }
+.outline {
+  border: black;
+}
