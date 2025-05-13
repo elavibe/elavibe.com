@@ -62,6 +62,8 @@ button {
   /* background-color: cadetblue; */
   /* gap: 50px; */
   border-radius: 2rem;
+  padding: 0.5rem;
+  /* box-shadow: 10px 5px 15px black; */
 }
 
 .header {
@@ -77,3 +79,17 @@ h1 {
 .lead {
   color: white;
 }
+
+/* .marquee {
+  overflow: hidden;
+  position: relative;
+  animation: MarqueeLeft linear 18s infinite;
+}
+@keyframes MarqueeLeft {
+  0% {
+    right: -100%;
+  }
+  100% {
+    right: 100%;
+  }
+} */
