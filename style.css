@@ -72,3 +72,9 @@ button {
 h1 {
   color: orange;
 }
+.grover {
+  border-radius: 2rem;
+}
+#size {
+  width: 600px;
+}
