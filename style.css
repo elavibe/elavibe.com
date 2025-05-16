@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(73, 73, 73);
+  font-family: "Nunito", sans-serif;
+}
+
+.blurb h2 {
+  color: orange;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+.blurb p {
+  color: whitesmoke;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+button {
+  background: none;
+  border: none;
+}
+.content {
+  margin-top: 100px;
+}
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+#mainNavbar .nav-link {
+  color: white;
+}
+#mainNavbar .nav-link:hover {
+  color: orangered;
+}
+
+#mainNavbar .navbar-brand {
+  color: orangered;
+}
+#mainNavbar .navbar-brand:hover {
+  color: white;
+}
+
+.navbar.scrolled {
+  /* background-image: url(spaceDanNavBar.png) !important; */
+  background: rgba(0, 0, 0, 0.605) !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.postItPictures {
+  border-radius: 2.3rem;
+  padding: 20px;
+}
+.previousBlack {
+  color: black;
+  font-family: "Roboto Mono", monospace;
+  font-size: 4rem !important;
+}
+.outline {
+  /* background-color: cadetblue; */
+  /* gap: 50px; */
+  border-radius: 2rem;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: orange;
+}
+.grover {
+  border-radius: 2rem;
+}
+#size {
+  width: 600px;
+}
