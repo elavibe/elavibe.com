@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(73, 73, 73);
+  font-family: "Nunito", sans-serif;
+}
+
+.blurb h2 {
+  color: orange;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+.blurb p {
+  color: whitesmoke;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+button {
+  background: none;
+  border: none;
+}
+.content {
+  margin-top: 100px;
+}
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+#mainNavbar .nav-link {
+  color: white;
+}
+#mainNavbar .nav-link:hover {
+  color: orangered;
+}
+
+#mainNavbar .navbar-brand {
+  color: orangered;
+}
+#mainNavbar .navbar-brand:hover {
+  color: white;
+}
+
+.navbar.scrolled {
+  /* background-image: url(spaceDanNavBar.png) !important; */
+  background: rgba(0, 0, 0, 0.605) !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.postItPictures {
+  border-radius: 2.3rem;
+  padding: 0.5rem;
+  /* outline: 2px solid Black; */
+}
+.postItPicturesWide {
+  border-radius: 2.3rem;
+  height: 150px;
+  padding: 0.5rem;
+}
+
+.postItPicturesTall {
+  border-radius: 2.3rem;
+  width: 150px;
+  padding: 0.5rem;
+}
+.previousBlack {
+  color: black;
+  font-family: "Roboto Mono", monospace;
+  font-size: 4rem !important;
+}
+.outline {
+  /* background-color: cadetblue; */
+  /* gap: 50px; */
+  border-radius: 2rem;
+  padding: 0.5rem;
+  /* box-shadow: 10px 5px 15px black; */
+}
+
+.header {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: orange;
+}
+.refresh-button {
+  background-color: orangered;
+  border: none;
+  margin-bottom: 2rem;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+.btn:active {
+  background-color: purple;
+  color: black;
+}
+
+.lead {
+  color: white;
+}
