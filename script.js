@@ -1,4 +1,4 @@
-var randomNumber1 = Math.floor(Math.random() * 96) + 1; //1-6
+var randomNumber1 = Math.floor(Math.random() * 112) + 1; //1-6
 
 var randomDiceImage = "PostItTall" + randomNumber1 + ".png"; //dice1.png - dice6.png
 
@@ -20,25 +20,25 @@ var randomImageSource3 = "PostItSquare" + randomNumber3 + ".png";
 
 document.querySelectorAll("img")[2].setAttribute("src", randomImageSource3);
 
-var randomNumber4 = Math.floor(Math.random() * 96) + 1;
+var randomNumber4 = Math.floor(Math.random() * 112) + 1;
 
 var randomImageSource4 = "PostItTall" + randomNumber4 + ".png";
 
 document.querySelectorAll("img")[3].setAttribute("src", randomImageSource4);
 
-var randomNumber5 = Math.floor(Math.random() * 79) + 1;
+var randomNumber5 = Math.floor(Math.random() * 86) + 1;
 
 var randomImageSource5 = "PostItWide" + randomNumber5 + ".png";
 
 document.querySelectorAll("img")[4].setAttribute("src", randomImageSource5);
 
-var randomNumber6 = Math.floor(Math.random() * 96) + 1;
+var randomNumber6 = Math.floor(Math.random() * 112) + 1;
 
 var randomImageSource6 = "PostItTall" + randomNumber6 + ".png";
 
 document.querySelectorAll("img")[5].setAttribute("src", randomImageSource6);
 
-var randomNumber7 = Math.floor(Math.random() * 79) + 1;
+var randomNumber7 = Math.floor(Math.random() * 86) + 1;
 
 var randomImageSource7 = "PostItWide" + randomNumber7 + ".png";
 
@@ -46,7 +46,7 @@ document.querySelectorAll("img")[6].setAttribute("src", randomImageSource7);
 
 //Second set of images
 
-var randomNumber8 = Math.floor(Math.random() * 96) + 1; //1-6
+var randomNumber8 = Math.floor(Math.random() * 112) + 1; //1-6
 
 var randomDiceImage = "PostItTall" + randomNumber8 + ".png"; //dice1.png - dice6.png
 
@@ -57,7 +57,7 @@ var image1 = document
   .setAttribute("src", randomImageSource8);
 
 //Tall
-var randomNumber9 = Math.floor(Math.random() * 79) + 1;
+var randomNumber9 = Math.floor(Math.random() * 86) + 1;
 
 var randomImageSource9 = "PostItWide" + randomNumber9 + ".png";
 
@@ -72,7 +72,7 @@ document.querySelectorAll("img")[9].setAttribute("src", randomImageSource10);
 
 //Tall
 
-var randomNumber11 = Math.floor(Math.random() * 96) + 1;
+var randomNumber11 = Math.floor(Math.random() * 112) + 1;
 
 var randomImageSource11 = "PostItTall" + randomNumber11 + ".png";
 
