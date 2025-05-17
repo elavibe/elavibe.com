@@ -59,11 +59,23 @@ button {
   padding: 0.5rem;
 }
 
+.postItPicturesWider {
+  border-radius: 2.3rem;
+  height: 220px;
+  padding: 0.5rem;
+}
 .postItPicturesTall {
   border-radius: 2.3rem;
   width: 150px;
   padding: 0.5rem;
 }
+
+.postItPicturesTaller {
+  border-radius: 2.3rem;
+  width: 220px;
+  padding: 0.5rem;
+}
+
 .previousBlack {
   color: black;
   font-family: "Roboto Mono", monospace;
@@ -102,4 +114,63 @@ h1 {
 
 .lead {
   color: white;
+}
+.buttonChange {
+  position: relative;
+  content: "bigger art";
+  background-color: orangered;
+  border: none;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.buttonChange:hover {
+  background-color: orange;
+}
+
+/* #buttonSize {
+  position: relative;
+  background-color: orangered;
+  border: none;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+} */
+
+.buttonAfter {
+  position: relative;
+  content: "smaller art";
+  visibility: visible;
+  background-color: orangered;
+  border: none;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.button:hover {
+  background-color: orange;
 }
