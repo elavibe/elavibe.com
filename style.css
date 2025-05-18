@@ -19,7 +19,13 @@ button {
   border: none;
 }
 .content {
-  margin-top: 25px;
+  margin-top: 150px;
+}
+.content2 {
+  margin-top: 15px;
+}
+.content3 {
+  margin-top: 5px;
 }
 #mainNavbar {
   font-size: 1.5rem;
@@ -77,4 +83,8 @@ h1 {
 }
 #size {
   width: 600px;
+}
+
+#spaceButton {
+  color: orange;
 }
