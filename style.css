@@ -27,6 +27,9 @@ button {
 .content3 {
   margin-top: 5px;
 }
+.content4 {
+  margin-top: 120px;
+}
 #mainNavbar {
   font-size: 1.5rem;
   font-weight: 100;
@@ -87,4 +90,17 @@ h1 {
 
 #spaceButton {
   color: orange;
+}
+
+.mc {
+  cursor: pointer;
+}
+
+.opaque {
+  opacity: 1;
+}
+#spacePic #danPic {
+  opacity: 0;
+  animation-fill-mode: forwards;
+  transition: 10s;
 }

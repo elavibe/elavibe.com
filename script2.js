@@ -30,3 +30,7 @@ const spaceBtn = ducument.querySelector(".spaceButton");
 //     dan.classList.add("");
 //   }
 // }
+
+document.querySelector(".mc").addEventListener("click", function () {
+  alert("h1 has been clicked");
+});
