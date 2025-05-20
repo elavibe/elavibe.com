@@ -83,6 +83,7 @@ h1 {
 }
 .grover {
   border-radius: 2rem;
+  cursor: pointer;
 }
 #size {
   width: 600px;
@@ -90,10 +91,6 @@ h1 {
 
 #spaceButton {
   color: orange;
-}
-
-.mc {
-  cursor: pointer;
 }
 
 .opaque {
