@@ -25,7 +25,6 @@ for (let squarePost of squarePostIt) {
   squarePost.addEventListener("click", () => {
     let randomPostitImage = "PostItSquare" + randomNumber(49) + ".png";
     document.querySelectorAll("img")[2].setAttribute("src", randomPostitImage);
-    //squarePost.addEventListener("dblclick", removeClassTall3);
   });
 }
 
