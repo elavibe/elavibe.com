@@ -3,7 +3,8 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
-.blurb h2 {
+.blurb h2,
+h1 {
   color: orange;
   font-weight: 100;
   font-size: 2.5rem;
@@ -59,8 +60,32 @@ button {
 
 .postItPictures {
   border-radius: 2.3rem;
-  padding: 20px;
+  padding: 0.5rem;
+  /* outline: 2px solid Black; */
 }
+.postItPicturesWide {
+  border-radius: 2.3rem;
+  height: 150px;
+  padding: 0.5rem;
+}
+
+.postItPicturesWider {
+  border-radius: 2.3rem;
+  height: 220px;
+  padding: 0.5rem;
+}
+.postItPicturesTall {
+  border-radius: 2.3rem;
+  width: 150px;
+  padding: 0.5rem;
+}
+
+.postItPicturesTaller {
+  border-radius: 2.3rem;
+  width: 220px;
+  padding: 0.5rem;
+}
+
 .previousBlack {
   color: black;
   font-family: "Roboto Mono", monospace;
@@ -97,7 +122,65 @@ h1 {
   opacity: 1;
 }
 #spacePic #danPic {
-  opacity: 0;
-  animation-fill-mode: forwards;
-  transition: 10s;
+  /* placeholder  */
+}
+
+.refresh-button {
+  background-color: orangered;
+  border: none;
+  margin-bottom: 2rem;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+.btn:active {
+  background-color: purple;
+  color: black;
+}
+
+.lead {
+  color: white;
+}
+.buttonChange {
+  position: relative;
+  content: "bigger art";
+  background-color: orangered;
+  border: none;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.buttonChange:hover {
+  background-color: orange;
+}
+
+.buttonAfter {
+  position: relative;
+  content: "smaller art";
+  visibility: visible;
+  background-color: orangered;
+  border: none;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.button:hover {
+  background-color: orange;
 }
