@@ -31,6 +31,16 @@ const spaceBtn = ducument.querySelector(".spaceButton");
 //   }
 // }
 
-document.querySelector(".mc").addEventListener("click", function () {
-  alert("h1 has been clicked");
-});
+// document.querySelector(".mc").addEventListener("click", function () {
+//   alert("h1 has been clicked");
+// });
+
+const btnHome = document.querySelector;
+
+const colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+
+for (let i = 0; i < 7; i++) {
+  addEventListener("click", () => {
+    pressMeButton[i].style.color = colors[i];
+  });
+}
