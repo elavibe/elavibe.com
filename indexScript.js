@@ -9,7 +9,7 @@ pressMeButton.addEventListener("click", (e) => {
 
 const dan = document.querySelector("#danPic");
 const space = document.querySelector("#spacePic");
-const spaceBtn = ducument.querySelector(".spaceButton");
+const spaceBtn = document.querySelector(".spaceButton");
 
 // spaceBtn.addEventListener("click", (e) => {
 //   alert("buttonworks");
@@ -35,12 +35,34 @@ const spaceBtn = ducument.querySelector(".spaceButton");
 //   alert("h1 has been clicked");
 // });
 
-const btnHome = document.querySelector;
+// const btnHome = document.querySelector;
 
-const colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+// const colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
 
-for (let i = 0; i < 7; i++) {
-  addEventListener("click", () => {
-    pressMeButton[i].style.color = colors[i];
-  });
-}
+// for (let i = 0; i < 7; i++) {
+//   addEventListener("click", () => {
+//     pressMeButton[i].style.color = colors[i];
+//   });
+// }
+
+const jokes = document.querySelector("#jokes");
+const jokebtn = document.querySelector(".JokeButton");
+
+const addNewJoke = async () => {
+  const jokeText = await getDadJoke();
+  const newLi = document.createElement("LI");
+  newLi.append(jokeText);
+  jokes.append(newLi);
+};
+
+const getDadJoke = async () => {
+  try {
+    const config = { headers: { Accept: "application/json" } };
+    const res = await axios.get("https://icanhazdadjoke.com/", config);
+    return res.data.joke;
+  } catch (e) {
+    return "NO JOKES AVAILABLE! SORRY :(";
+  }
+};
+
+jokebtn.addEventListener("click", addNewJoke);
