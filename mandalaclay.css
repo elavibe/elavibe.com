@@ -1,18 +1,19 @@
 body {
-  background-color: rgb(73, 73, 73);
+  background-color: teal;
   font-family: "Nunito", sans-serif;
+  background-image: url("images/daisy.png");
 }
 
 .blurb h2,
 h1 {
-  color: orange;
+  color: rgb(2, 58, 58);
   font-weight: 100;
   font-size: 2.5rem;
 }
 .blurb p {
   color: whitesmoke;
   font-weight: 100;
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   line-height: 2;
 }
 button {
@@ -23,7 +24,8 @@ button {
   margin-top: 150px;
 }
 .content2 {
-  margin-top: 15px;
+  padding: 100px;
+  background-color: teal;
 }
 .content3 {
   margin-top: 5px;
@@ -39,19 +41,20 @@ button {
   color: white;
 }
 #mainNavbar .nav-link:hover {
-  color: orangered;
+  color: teal;
 }
 
 #mainNavbar .navbar-brand {
-  color: orangered;
+  color: white;
 }
 #mainNavbar .navbar-brand:hover {
-  color: white;
+  color: teal;
 }
 
 .navbar.scrolled {
   /* background-image: url(spaceDanNavBar.png) !important; */
-  background: rgba(0, 0, 0, 0.605) !important;
+  background: rgba(4, 11, 137, 0.414) !important;
+  background-image: url("images/daisy.png") !important;
 }
 
 .hidden {
@@ -137,7 +140,8 @@ h1 {
 }
 
 .lead {
-  color: white;
+  color: rgb(21, 227, 227);
+  margin-top: 1rem;
 }
 .buttonChange {
   position: relative;
@@ -205,4 +209,17 @@ h1 {
 
 .JokeButton:hover {
   background-color: orange;
+}
+
+.puppy {
+  width: 1000px;
+  border-radius: 1rem;
+}
+
+.footer {
+  background: rgba(4, 11, 137, 0.414) !important;
+}
+
+.h2text {
+  color: rgb(1, 80, 80);
 }
